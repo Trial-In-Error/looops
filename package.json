@@ -1,0 +1,19 @@
+{
+  "name": "looops",
+  "version": "1.0.0",
+  "description": "A configurable work timer with an emphasis on ergonomics and customization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-install": "echo \"Please run `sudo gem install terminal-notifier` to enable OS X notifications.\""
+  },
+  "author": "Ashton Eby",
+  "license": "MIT",
+  "dependencies": {
+    "@sindresorhus/do-not-disturb": "^1.1.0",
+    "growl": "^1.10.5",
+    "inquirer": "^7.1.0",
+    "loud-rejection": "^2.2.0",
+    "ora": "^4.0.4"
+  }
+}
