@@ -2,7 +2,10 @@
   "name": "looops",
   "version": "1.0.0",
   "description": "A configurable work timer with an emphasis on ergonomics and customization.",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": {
+    "looops": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "post-install": "echo \"Please run `sudo gem install terminal-notifier` to enable OS X notifications.\""

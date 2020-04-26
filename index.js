@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // built-ins
 const util = require('util')
 const wait = util.promisify(setTimeout)

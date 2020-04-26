@@ -5,7 +5,7 @@ Using:
 Run with `node ./index.js` and answer the prompts.
 
 Developing on the project:
-Run with `debug=true node ./index.js`
+Run with `debug=true ./index.js`. Test as if installed globally by creating a symlink with `npm install -g ./`.
 
 To Do:
 - npx mit-license --name ''
